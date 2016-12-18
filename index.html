@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="video-js.min.css" rel="stylesheet"/>
+</head>
+<style>
+.container{margin-bottom:10px;}
+</style>
+<body>
+<!--video-js vjs-default-skin vjs-big-play-centered-->
+<div class="container">
+	<video id="d1" data-st="5" data-en="7" data-ap="true" data-loop="true" class="" width="640" height="264">
+		<source src="./video.mp4" type="video/mp4" />
+	</video>
+</div>
+
+
+<div class="container">
+	<video id="d2" data-st="10" data-en="12" data-ap="false" data-loop="false" class="" width="640" height="264">
+		<source src="./video.mp4" type="video/mp4" />
+	</video>
+</div>
+
+
+<script src="./jquery-1.12.4.min.js"></script>
+<script src="./video.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
